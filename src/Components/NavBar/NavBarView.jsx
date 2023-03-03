@@ -2,21 +2,24 @@ import React from "react";
 import "./NavBarStyles.css";
 import Icon from "@mdi/react";
 import { mdiCart } from "@mdi/js";
+import { NavLink } from "react-router-dom";
 
 function NavBarView() {
   return (
     <div>
       <div className="nav-bar">
-        <h1>Music Store</h1>
+        <NavLink className="music-store" to="/">
+          Music Store
+        </NavLink>
         <ul className="product-options">
           <li>
-            <a>Plugins</a>
+            <NavLink to="/plugins">Plugins</NavLink>
           </li>
           <li>
-            <a>Synthesizers</a>
+            <NavLink to="/synthesizers">Synthesizers</NavLink>
           </li>
           <li>
-            <a>Equipment</a>
+            <NavLink to="/equipment">Equipment</NavLink>
           </li>
         </ul>
         <div className="search-cart-container">
@@ -26,7 +29,9 @@ function NavBarView() {
             id="product-search"
             placeholder="Search Products..."
           />
-          <Icon path={mdiCart} size={1} />
+          <NavLink to="/cart">
+            <Icon path={mdiCart} size={1} />
+          </NavLink>
         </div>
       </div>
     </div>
