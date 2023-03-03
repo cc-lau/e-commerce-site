@@ -5,6 +5,13 @@
   justify-content: space-evenly;
 }
 
+.music-store {
+  font-size: 2em;
+  text-decoration: none;
+  color: rgba(17, 17, 17, 0.87);
+  font-weight: bold;
+}
+
 .product-options {
   display: flex;
   flex-direction: row;
@@ -12,6 +19,11 @@
   font-size: 1em;
   font-weight: bold;
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(17, 17, 17, 0.87);
 }
 
 .search-cart-container {
