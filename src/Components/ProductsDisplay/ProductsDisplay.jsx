@@ -2,17 +2,18 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchProducts } from "./ProductsSlice";
 import "./ProductsDisplayStyle.css";
-export const ProductsDisplay = () => {
+export const ProductsDisplay = (props) => {
   const product = useSelector((state) => state.product);
   const dispatch = useDispatch();
+  let productType = props.productType;
 
   useEffect(() => {
-    dispatch(fetchProducts());
+    dispatch(fetchProducts(productType));
+    console.log(product);
   }, []);
 
   return (
     <div>
-      <h2>All Products</h2>
       <div className="products-display">
         {product.loading && <div>Loading...</div>}
         {!product.loading && product.error ? (
