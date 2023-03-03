@@ -4,3 +4,28 @@
   align-items: baseline;
   justify-content: space-evenly;
 }
+
+.product-options {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  font-size: 1em;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.search-cart-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.search-cart-container > input {
+  height: 25px;
+  color: black;
+  border: solid 1px rgba(0, 0, 0, 0.611);
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0);
+}
