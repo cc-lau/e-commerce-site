@@ -7,11 +7,14 @@ const initialState = {
   error: "",
 };
 
-export const fetchProducts = createAsyncThunk("product/fetchProducts", () => {
-  return axios
-    .get("https://fakestoreapi.com/products?limit=5")
-    .then((response) => response.data);
-});
+export const fetchProducts = createAsyncThunk(
+  "product/fetchProducts",
+  (productType) => {
+    return axios
+      .get("https://fakestoreapi.com/products/category/" + productType)
+      .then((response) => response.data);
+  }
+);
 
 const productSlice = createSlice({
   name: "product",
