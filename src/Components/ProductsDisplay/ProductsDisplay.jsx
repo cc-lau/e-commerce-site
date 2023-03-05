@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchProducts } from "./ProductsSlice";
@@ -14,21 +15,21 @@ export const ProductsDisplay = (props) => {
 
   return (
     <div>
-      <div className="products-display">
+      <div className="products-container">
         {product.loading && <div>Loading...</div>}
         {!product.loading && product.error ? (
-          <div>Error: {user.error}</div>
+          <div>Error: {product.error}</div>
         ) : null}
         {!product.loading && product.products.length ? (
-          <ul>
+          <div className="product-cards">
             {product.products.map((product) => (
-              <li key={product.id}>
+              <Link key={product.id} to={`/product/${product.id}`}>
                 <img className="product-img" src={product.image}></img>
                 {product.title + " "}
                 {"$" + product.price}
-              </li>
+              </Link>
             ))}
-          </ul>
+          </div>
         ) : null}
       </div>
     </div>
