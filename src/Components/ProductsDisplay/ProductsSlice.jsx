@@ -16,6 +16,15 @@ export const fetchProducts = createAsyncThunk(
   }
 );
 
+export const fetchSingleProduct = createAsyncThunk(
+  "product/fetchProducts",
+  (productId) => {
+    return axios
+      .get("https://fakestoreapi.com/products/" + productId)
+      .then((response) => response.data);
+  }
+);
+
 const productSlice = createSlice({
   name: "product",
   initialState: initialState,
