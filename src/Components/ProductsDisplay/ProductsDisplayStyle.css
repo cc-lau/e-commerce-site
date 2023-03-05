@@ -1,16 +1,21 @@
-.products-display > ul {
+.product-cards {
   display: flex;
   list-style-type: none;
   column-gap: 25px;
 }
 
-.products-display > ul > li {
+a {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 .product-img {
   height: auto;
   width: 100px;
+}
+
+li.pointer {
+  cursor: pointer;
 }
