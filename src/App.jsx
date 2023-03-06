@@ -2,6 +2,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
 import PluginsDisplay from "./Components/AudioPlugins/PluginsDisplay";
 import Cart from "./Components/Cart/Cart";
+import Checkout from "./Components/Checkout/Checkout";
 import EquipmentDisplay from "./Components/Equipment/EquipmentDisplay";
 import Home from "./Components/Home/Home";
 import NavBarView from "./Components/NavBar/NavBarView";
@@ -20,6 +21,7 @@ function App() {
           <Route path="equipment" element={<EquipmentDisplay />} />
           <Route path="/product/:productId" element={<ProductView />} />
           <Route path="cart" element={<Cart />} />
+          <Route path="checkout" element={<Checkout />} />
         </Routes>
       </BrowserRouter>
     </div>
