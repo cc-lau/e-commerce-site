@@ -11,11 +11,12 @@ const cartSlice = createSlice({
     addToCart: (state, action) => {
       state.cartItems = state.cartItems.concat(action.payload);
     },
-    removeFromCart: (state, action) => {
-      state.cartItems = state.cartItems.filter(action.payload);
+    removeItem: (state, action) => {
+      state.cartItems.splice(action.payload, 1);
+      state.cartItems = [...state.cartItems];
     },
   },
 });
 
 export default cartSlice.reducer;
-export const { addToCart } = cartSlice.actions;
+export const { addToCart, removeItem } = cartSlice.actions;
