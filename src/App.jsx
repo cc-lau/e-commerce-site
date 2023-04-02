@@ -1,5 +1,5 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import "./App.css";
+import "./App.scss";
 import PluginsDisplay from "./Components/AudioPlugins/PluginsDisplay";
 import Cart from "./Components/Cart/Cart";
 import Checkout from "./Components/Checkout/Checkout";
