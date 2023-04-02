@@ -4,7 +4,7 @@ import { ProductsDisplay } from "../ProductsDisplay/ProductsDisplay";
 function SynthesizersDisplay() {
   return (
     <div>
-      <h2>Synthesizers</h2>
+      <h2 className="page-header">Synthesizers</h2>
       <ProductsDisplay productType="electronics" />
     </div>
   );
