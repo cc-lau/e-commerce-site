@@ -4,7 +4,7 @@ import NavBarView from "../NavBar/NavBarView";
 function Home() {
   return (
     <div>
-      <h2>All Products</h2>
+      <h2 className="page-header">All Products</h2>
       <ProductsDisplay productType={"men's clothing"} />
     </div>
   );
