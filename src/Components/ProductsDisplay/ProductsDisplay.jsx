@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchProducts } from "./ProductsSlice";
-import "./ProductsDisplayStyle.css";
+import "./ProductsDisplayStyle.scss";
 export const ProductsDisplay = (props) => {
   const product = useSelector((state) => state.product);
   const dispatch = useDispatch();
@@ -10,11 +10,11 @@ export const ProductsDisplay = (props) => {
 
   useEffect(() => {
     dispatch(fetchProducts(productType));
-    console.log(product);
+    /* console.log(product); */
   }, []);
 
   return (
-    <div>
+    <div className="products-view">
       <div className="products-container">
         {product.loading && <div>Loading...</div>}
         {!product.loading && product.error ? (
@@ -23,10 +23,19 @@ export const ProductsDisplay = (props) => {
         {!product.loading && product.products.length ? (
           <div className="product-cards">
             {product.products.map((product) => (
-              <Link key={product.id} to={`/product/${product.id}`}>
-                <img className="product-img" src={product.image}></img>
-                {product.title + " "}
-                {"$" + product.price}
+              <Link
+                className="product-card"
+                key={product.id}
+                to={`/product/${product.id}`}
+              >
+                <div className="img-container">
+                  <img className="product-img" src={product.image}></img>
+                </div>
+                <div className="product-desc">
+                  <p className="product-title">{product.title + " "}</p>
+                  <p className="product-price">{"$" + product.price}</p>
+                  <p className="product-category">{product.category}</p>
+                </div>
               </Link>
             ))}
           </div>
