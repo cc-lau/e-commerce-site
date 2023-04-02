@@ -4,7 +4,7 @@ import { ProductsDisplay } from "../ProductsDisplay/ProductsDisplay";
 function EquipmentDisplay() {
   return (
     <div>
-      <h2>Equipment</h2>
+      <h2 className="page-header">Equipment</h2>
       <ProductsDisplay productType="women's clothing" />
     </div>
   );
