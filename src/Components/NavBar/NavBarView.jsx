@@ -1,5 +1,5 @@
 import React from "react";
-import "./NavBarStyles.css";
+import "./NavBarStyles.scss";
 import Icon from "@mdi/react";
 import { mdiCart } from "@mdi/js";
 import { NavLink } from "react-router-dom";
@@ -23,12 +23,12 @@ function NavBarView() {
           </li>
         </ul>
         <div className="search-cart-container">
-          <input
+          {/*           <input
             type="search"
             className="product-search"
             id="product-search"
             placeholder="Search Products..."
-          />
+          /> */}
           <NavLink to="/cart">
             <Icon path={mdiCart} size={1} />
           </NavLink>
