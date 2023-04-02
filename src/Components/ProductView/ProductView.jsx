@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchSingleProduct } from "../ProductsDisplay/ProductsSlice";
-import "./ProductViewStyles.css";
+import "./ProductViewStyles.scss";
 import { addToCart } from "../Cart/CartSlice";
 
 function ProductView() {
@@ -24,24 +24,25 @@ function ProductView() {
   }, []);
 
   return (
-    <div>
-      <div className="products-container">
-        {product.loading && <div>Loading...</div>}
-        {!product.loading && product.error ? (
-          <div>Error: {product.error}</div>
-        ) : null}
-        {!product.loading && product.products ? (
-          <div className="product-card">
-            <img className="product-img" src={product.products.image}></img>
-            <p> {product.products.title}</p>
-            <p> {"$" + product.products.price}</p>
+    <div className="view-container">
+      {product.loading && <div>Loading...</div>}
+      {!product.loading && product.error ? (
+        <div>Error: {product.error}</div>
+      ) : null}
+      {!product.loading && product.products ? (
+        <div className="view-card">
+          <img className="view-img" src={product.products.image}></img>
+          <div className="product-info">
+            <p className="view-title"> {product.products.title}</p>
+            <p className="view-price"> {"$" + product.products.price}</p>
+            <p className="view-description">{product.products.description}</p>
             <input
               className="qty-input"
               type="number"
               value={qty}
               onChange={(e) => setQty(parseInt(e.target.value))}
             ></input>
-            <Link to="/cart">
+            <Link className="add-to-cart-btn" to="/cart">
               <button
                 onClick={() =>
                   dispatch(addToCart({ product: product.products, qty: qty }))
@@ -51,8 +52,8 @@ function ProductView() {
               </button>
             </Link>
           </div>
-        ) : null}
-      </div>
+        </div>
+      ) : null}
     </div>
   );
 }
