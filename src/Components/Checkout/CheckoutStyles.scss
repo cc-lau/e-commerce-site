@@ -1,0 +1,85 @@
+@import "../stylevariables";
+
+.checkout {
+  @include flexCenter;
+  flex-direction: column;
+}
+
+.form-container {
+  @include flexCenter;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #e8e8e8b7;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.064);
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.form-header {
+  color: $textColor;
+  width: 100%;
+  text-align: left;
+  margin: 0;
+}
+
+form {
+  @include flexCenter;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 2em;
+  width: 100%;
+  input,
+  select {
+    color: #24272f;
+    padding: 0.65em;
+    border: 1px solid rgba(255, 255, 255, 0.064);
+    border-radius: 7.5px;
+    width: 100%;
+  }
+  div {
+    width: 100%;
+  }
+}
+.country-region {
+  label {
+    display: flex;
+    color: $textColor;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.names {
+  display: flex;
+  column-gap: 30px;
+}
+
+.city-state-zip {
+  display: flex;
+  column-gap: 30px;
+}
+
+.cont-btn {
+  display: flex;
+  justify-content: flex-end;
+  width: fit-content;
+  button {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #24272f;
+    padding: 1rem;
+    background-color: rgb(242 245 250);
+    border: 1px solid rgba(255, 255, 255, 0.064);
+    border-radius: 10px;
+
+    &:hover {
+      outline: none;
+      border-color: rgba(242, 245, 250, 0.069);
+      box-shadow: 0 0 10px rgba(242, 245, 250, 0.245);
+    }
+  }
+}
