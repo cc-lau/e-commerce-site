@@ -4,7 +4,7 @@ import { ProductsDisplay } from "../ProductsDisplay/ProductsDisplay";
 function PluginsDisplay() {
   return (
     <div>
-      <h2>Plugins</h2>
+      <h2 className="page-header">Plugins</h2>
       <ProductsDisplay productType={"jewelery"} />
     </div>
   );
