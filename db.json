@@ -1,0 +1,244 @@
+{
+  "products": [
+    {
+      "title": "Magma Tube Channel Strip",
+      "category": "plugin",
+      "description": "Sculpt your tracks with the rich, textured analog tube Magma sound—now available in a full channel strip, covering your most crucial mixing needs: compression/gating, EQ, and saturation.",
+      "id": "1",
+      "image": "",
+      "price": "19.99"
+    },
+    {
+      "title": "Clarity Vx",
+      "category": "plugin",
+      "description": "Got great vocal recordings ruined by unwanted background noise—air conditioner, room rumble, rain, traffic, airplane flyovers, background talking, etc.? Solve these issues with Clarity Vx, whose advanced Neural Networks (the same engine as in the larger Clarity Vx Pro) are trained to recognize vocals, and separate them from noise.",
+      "id": "2",
+      "image": "",
+      "price": "29.99"
+    },
+    {
+      "title": "Clarity Vx Pro",
+      "category": "plugin",
+      "description": "Eliminate hours of tedious post-production work: Clarity Vx Pro’s AI-powered noise reduction cleans voice and vocal recording quickly, in real time, delivering artifact-free results.",
+      "id": "3",
+      "image": "",
+      "price": "49.99"
+    },
+    {
+      "title": "Vocal Rider",
+      "category": "plugin",
+      "description": "Vocal Rider saves you time by riding gain automatically, while preserving the vocal’s full fidelity. Set a target level for the vocal, and Vocal Rider will take care of the rest. It unobtrusively raises or lowers the vocal’s gain to maintain the target level—just as if you were making fast, precise fader moves.",
+      "id": "4",
+      "image": "",
+      "price": "9.99"
+    },
+    {
+      "title": "Renaissance Vox",
+      "category": "plugin",
+      "description": "Hailed by Drake’s producer Noah “40” Shebib as “one of the most important vocal plugins ever made,” R-Vox has become the go-to vocal compressor for countless Grammy®-winning engineers, working with vocalists from Beyoncé to Billie Eilish. With 3 focused and efficient controls, R-Vox is the quickest route to a legendary vocal sound.",
+      "id": "5",
+      "image": "",
+      "price": "29.99"
+    },
+    {
+      "title": "OVox Vocal ReSynthesis",
+      "category": "plugin",
+      "description": "Your voice is an amazing instrument—now, OVox turns it into a production playground. Chord generation, vocoding, talkbox, tune/pitch effects, arpeggiation, and countless vocal synthesis effects can all be part of your vocal production palette. Send your vocal to MIDI, trigger instruments with your voice—or even go beyond voice to synthesize drums, bass and more.",
+      "id": "6",
+      "image": "",
+      "price": "9.99"
+    },
+    {
+      "title": "CLA-2A Compressor / Limiter",
+      "category": "plugin",
+      "description": "The CLA-2A models what may be the most coveted and popular hardware compressor/limiter ever made. A favorite of studio engineers everywhere, this studio mainstay has graced countless vocal, bass, guitar, and other instrument tracks for over half a century with its alluring, warm sound.",
+      "id": "7",
+      "image": "",
+      "price": "14.99"
+    },
+    {
+      "title": "Abbey Road J37 Tape",
+      "category": "plugin",
+      "description": "Tape’s warm-sounding harmonic distortion made classic tracks come alive. J37 delivers the true sound of the all-valve analog tape machine—Abbey Road Studios’ powerhouse Studer machine, which captured legendary recordings by the Beatles and Pink Floyd.",
+      "id": "8",
+      "image": "",
+      "price": "19.99"
+    },
+    {
+      "title": "Vocal Bender",
+      "category": "plugin",
+      "description": "Bend your vocals in real time for the most popular sounds in hip hop, pop, R&B and electronic genres. With zero latency and two simple pitch and formant controls, Vocal Bender is the fastest, easiest, highest-quality way to record and produce hit-sounding vocal effects instantly.",
+      "id": "9",
+      "image": "",
+      "price": "19.99"
+    },
+    {
+      "title": "SSL G-Master Buss Compressor",
+      "category": "plugin",
+      "description": "Ask any pro engineer—there’s nothing like the SSL G-Master on the stereo bus. Originally strapped across SSL console master buses to “glue” mixes together into a solid, cohesive experience, the SSL G-Master is also ideal for drum buses, backup vocals, and even solo instruments.",
+      "id": "10",
+      "image": "",
+      "price": "9.99"
+    },
+    {
+      "title": "Universal Audio Apollo Twin X",
+      "category": "equipment",
+      "description": "Place the Universal Audio Apollo Twin X DUO at the center of your studio, and it’s guaranteed to turbocharge your productivity. The Twin X DUO’s performance rivals UA’s rackmount Apollo X audio interfaces, but eschews extraneous features like 5.1 surround monitoring and +24dBu operation for a streamlined, desktop design that’s tailor-made for project studios.",
+      "id": "11",
+      "image": "",
+      "price": "199.99"
+    },
+    {
+      "title": "Universal Audio Volt 276 USB-C Audio Interface",
+      "category": "equipment",
+      "description": "The Universal Audio Volt 276 leverages UA's renowned analog expertise to deliver a USB-C audio interface worthy of a decades-long legacy. The Volt 276 boasts top-flight analog circuitry, along with class-leading 24-bit/192kHz AD/DA conversion, enabling you to create professional-sounding music productions, livestreams, and podcasts.",
+      "id": "12",
+      "image": "",
+      "price": "299.99"
+    },
+    {
+      "title": "Universal Audio Sphere DLX Modeling Microphone System",
+      "category": "equipment",
+      "description": "The Universal Audio Sphere DLX microphone modeling system consists of a high-quality large-diaphragm condenser mic that works in concert with software that meticulously models the sonic attributes of 38 of the most coveted microphones ever made.",
+      "id": "13",
+      "image": "",
+      "price": "1499.99"
+    },
+    {
+      "title": "Shure SM81 Small-diaphragm Condenser Microphone",
+      "category": "equipment",
+      "description": "If you’ve been looking for a versatile, precise, and rugged mic, you’ve found it. The Shure SM81’s uniform cardioid pickup pattern achieves maximum gain before feedback onstage, while offering excellent off-axis rejection in a myriad of applications.",
+      "id": "14",
+      "image": "",
+      "price": "399.99"
+    },
+    {
+      "title": "Audio-Technica ATH-M50x Closed-back Studio Monitoring Headphones",
+      "category": "equipment",
+      "description": "Looking for amazing value in professional monitor headphones? Sweetwater has a great suggestion: ATH-M50x closed-back headphones. A-T’s flagship M series ’phones are best sellers, featuring 45mm neodymium magnet drivers that deliver the accurate frequency response and stunning detail you need to make sound decisions when you’re recording, mixing, or DJing.",
+      "id": "15",
+      "image": "",
+      "price": "159.99"
+    },
+    {
+      "title": "Sennheiser HD 280 Pro Closed-Back Studio and Live Monitoring Headphones",
+      "category": "equipment",
+      "description": "There are many reasons that Sennheiser HD 280 Pro monitoring headphones are so popular among recording professionals. Comfort, isolation, reliability, and accuracy are all major reasons why Sweetwater Sales Engineers are quick to recommend them.",
+      "id": "16",
+      "image": "",
+      "price": "99.99"
+    },
+    {
+      "title": "Mackie ProFX12v3 12-channel Mixer with USB and Effects",
+      "category": "equipment",
+      "description": "Looking for a mixer that makes your life easier when you’re gigging? The Mackie ProFX12v3 12-channel USB mixer can do that and much, much more. The Mackie ProFX12v3 provides you with great sound and features found in larger mixers while remaining portable.",
+      "id": "17",
+      "image": "",
+      "price": "359.99"
+    },
+    {
+      "title": "TASCAM Model 12 Mixer / Interface / Recorder / Controller",
+      "category": "equipment",
+      "description": "Whether you use it for rehearsal, live shows, or studio production, the TASCAM Model 12 is a great-sounding, easy-to-use multitrack recording solution. The Model 12 boasts a classic analog mixer-style design that's both intuitive and immediate. Achieve precise control with 60mm faders, while tweaking your tracks with familiar EQ and Aux controls.",
+      "id": "18",
+      "image": "",
+      "price": "599.99"
+    },
+    {
+      "title": "Cloud Microphones Cloudlifter CL-1 Bundle with XLR Cables",
+      "category": "equipment",
+      "description": "From stage to studio, the Cloud Microphones Cloudlifter Mic Activator lets you get the best possible audio output from your low-output dynamic and ribbon microphones. The Cloudlifter CL-1 provides up to +25dB of gain that partners with your preamp in amplifying your mics' signal for clean, transparent recordings.",
+      "id": "19",
+      "image": "",
+      "price": "189.99"
+    },
+    {
+      "title": "Triton Audio FetHead In-line Microphone Preamp",
+      "category": "equipment",
+      "description": "If you're deploying gain-hungry dynamic and ribbon mics, Triton Audio FetHead is guaranteed to take their performance to the highest level. This in-line mic preamp utilizes top-quality Class A FET technology to yield you up to 27dB of clean boost. The result is a cleaner signal with lower noise, greater sensitivity, and improved transient response.",
+      "id": "20",
+      "image": "",
+      "price": "79.99"
+    },
+    {
+      "title": "Nord Stage 4 88 Stage Keyboard",
+      "category": "synthesizer",
+      "description": "Since Hans Nordelius developed the first dynamic-playback digital drum pad in 1983, Nord has remained at the forefront of sonic innovation, handcrafting every keyboard in their Stockholm-based operation while maintaining tradition through meticulous research and design.",
+      "id": "21",
+      "image": "",
+      "price": "5699.99"
+    },
+    {
+      "title": "Expressive E Osmose 49-key Polyphonic Synthesizer and MIDI Controller",
+      "category": "synthesizer",
+      "description": "After 10 years of painstaking research, Expressive E has emerged with a voltaic blend of historic craftsmanship and cutting-edge technology to revolutionize your approach to keyboard synthesis. Osmose is a 49-key synthesizer whose highly versatile sound engine is fueled by the powerful EaganMatrix, a digital modular engine developed by Haken Audio.",
+      "id": "22",
+      "image": "",
+      "price": "1799.99"
+    },
+    {
+      "title": "Nord Stage 3 88 Stage Keyboard",
+      "category": "synthesizer",
+      "description": "With an amazingly lightweight design and all the sounds you'll need, the Nord Stage 3 88 is an outstanding performance instrument. This fifth-generation Stage Series keyboard offers the award-winning Nord Lead A1 Synth Engine (with sample playback), the renowned Nord C2D Organ Engine, an advanced piano section, and access to hands-on effects — everything you need for a stellar performance in any setting.",
+      "id": "23",
+      "image": "",
+      "price": "4199.99"
+    },
+    {
+      "title": "Pittsburgh Modular Taiga Semi-modular Paraphonic Synthesizer",
+      "category": "synthesizer",
+      "description": "With an amazingly lightweight design and all the sounds you'll need, the Nord Stage 3 88 is an outstanding performance instrument. This fifth-generation Stage Series keyboard offers the award-winning Nord Lead A1 Synth Engine (with sample playback), the renowned Nord C2D Organ Engine, an advanced piano section, and access to hands-on effects — everything you need for a stellar performance in any setting.",
+      "id": "24",
+      "image": "",
+      "price": "799.99"
+    },
+    {
+      "title": "Roland JUNO-DS88 88-key Synthesizer",
+      "category": "synthesizer",
+      "description": "The Roland JUNO-DS88 88-key synthesizer delivers all of the benefits of its predecessor, along with realistic hammer-action keys, improved pianos, additional organs, waveform expansion capability, Phrase Pads, new vocal effects, and more.",
+      "id": "25",
+      "image": "",
+      "price": "1199.99"
+    },
+    {
+      "title": "Moog Minimoog Model D Analog Synthesizer - Appalachian Cherry",
+      "category": "synthesizer",
+      "description": "It’s been over a half century since the Minimoog Model D reshaped the sound of modern music, and Moog has resumed production of the game-changing analog monosynth. A meticulous re-creation, the 2022 Minimoog Model D sports the original circuit path with three punchy oscillators and Moog’s legendary Ladder Filter.",
+      "id": "26",
+      "image": "",
+      "price": "4999.99"
+    },
+    {
+      "title": "Nord Piano 5 88-key Stage Piano",
+      "category": "synthesizer",
+      "description": "The Nord Piano 5 builds upon the excellence of its predecessor — a Sweetwater favorite — to bring you a superb studio and stage piano with across-the-board improvements. Boasting two powerful piano engines, dual independent sample synths, and twice the memory of its predecessor, Piano 5 is a total beast that can ace the most demanding live gigs and recording sessions.",
+      "id": "27",
+      "image": "",
+      "price": "3499.99"
+    },
+    {
+      "title": "Yamaha MODX8+ 88 GHS-weighted Key Synthesizer",
+      "category": "synthesizer",
+      "description": "Yamaha’s MODX series took their suite of creative and technological prowess and packed it into a high-performance synthesizer, engineered for modern needs. The MODX+ builds off this forward-thinking model to accommodate even greater sonic opportunities, bringing your total polyphony to an astounding 256 notes.",
+      "id": "28",
+      "image": "",
+      "price": "1899.99"
+    },
+    {
+      "title": "Arturia MiniFreak 37-key Hybrid Synthesizer",
+      "category": "synthesizer",
+      "description": "Sound designers at Arturia are no strangers to meticulously and methodically deconstructing the elements of aural intrigue that make our favorite synths tick. The MiniFreak throws down the gauntlet with a 37-key hybrid design that utilizes a dual-oscillator 2-engine architecture to elicit dynamic, undulating sonics with multiple lanes of modulation.",
+      "id": "29",
+      "image": "",
+      "price": "599.99"
+    },
+    {
+      "title": "Korg minilogue XD 4-voice Analog Synthesizer",
+      "category": "synthesizer",
+      "description": "With the Korg minilogue XD hybrid synthesizer, you’ve got a 4-voice analog synth bolstered by Korg’s digital multi-engine. Factor in the built-in effects, powerful sequencer, and micro tuning capability, and you have a full-featured sound design system at your fingertips.",
+      "id": "30",
+      "image": "",
+      "price": "649.99"
+    }
+  ]
+}
