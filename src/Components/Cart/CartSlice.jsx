@@ -12,18 +12,18 @@ const cartSlice = createSlice({
     addToCart: (state, action) => {
       state.cartItems = state.cartItems.concat(action.payload);
       const total = action.payload.product.price * action.payload.qty;
-      state.total += total;
+      state.total += Number(total.toFixed(2));
       console.log(state.total);
     },
     removeItem: (state, action) => {
+      console.log(action.payload);
       state.cartItems.splice(action.payload, 1);
       state.cartItems = [...state.cartItems];
       const total = action.payload.product.price * action.payload.qty;
-      state.total -= total;
+      state.total -= Number(total.toFixed(2));
       if (state.total < 0) {
         state.total = 0;
       }
-      console.log(state.total);
     },
   },
 });

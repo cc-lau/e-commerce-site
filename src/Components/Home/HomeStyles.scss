@@ -1,0 +1,171 @@
+@import "../stylevariables";
+
+.content-container {
+  @include flexCenter;
+  flex-direction: column;
+  row-gap: 25px;
+  max-width: 78rem;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+.mens-container {
+  width: 100%;
+}
+
+.womens-container {
+  width: 100%;
+}
+
+.content-quote {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 600;
+  color: $textColor;
+}
+
+.list {
+  @include flexCenter;
+  column-gap: 25px;
+  text-align: left;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 75px;
+  h4 {
+    margin: 0;
+    font-size: medium;
+  }
+  a {
+    font-size: small;
+    padding-bottom: 2.5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  li {
+    width: 100%;
+    height: 100%;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+}
+
+.h-img-container {
+  height: 100%;
+  &:hover {
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: brightness(70%);
+    transition: all 0.5s ease;
+  }
+}
+
+.c-title {
+  margin-top: 10px;
+  height: fit-content;
+}
+
+.camera-ad {
+  @include flexCenter;
+  height: 35rem;
+  width: 100%;
+  background: url("/src/assets/ad-pics/camera-pic.jpg");
+  background-size: fill;
+}
+
+.text-overlay {
+  font-size: 1.25rem;
+  text-align: right;
+  width: 100%;
+  margin-right: 10%;
+  color: white;
+  h2 {
+    margin: 0;
+    font-weight: 600;
+  }
+  h3 {
+    margin: 0;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.963);
+  }
+}
+
+.camera-button {
+  button {
+    margin-top: 15px;
+    color: white;
+    border: 1px solid white;
+    width: 15rem;
+    background-color: transparent;
+    padding: 10px;
+    &:hover {
+      color: black;
+      background-color: white;
+      transition: all 0.5s ease;
+    }
+  }
+}
+
+.jewelry-ad {
+  display: flex;
+}
+
+.j-img-container {
+  max-width: 45rem;
+}
+
+.j-img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  filter: grayscale(0.75);
+}
+
+.j-text {
+  @include flexCenter;
+  color: $textColor;
+  flex-direction: column;
+  padding-left: 65px;
+  padding-right: 65px;
+  background-color: rgba(137, 137, 137, 0.11);
+  text-align: left;
+  align-items: start;
+  h3 {
+    font-weight: 400;
+    font-size: 0.95rem;
+    color: rgba(0, 0, 0, 0.62);
+  }
+  button {
+    margin-top: 15px;
+    color: black;
+    border: 1px solid black;
+    width: 15rem;
+    background-color: transparent;
+    padding: 10px;
+    &:hover {
+      color: white;
+      background-color: black;
+      transition: all 0.5s ease;
+    }
+  }
+}
+
+footer {
+  background-color: rgba(128, 128, 128, 0.041);
+  width: 100%;
+  ul {
+    color: $textColor;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    @include flexCenter;
+    column-gap: 50px;
+  }
+  h2 {
+    color: $textColor;
+    font-weight: 400;
+    padding-bottom: 25px;
+  }
+}

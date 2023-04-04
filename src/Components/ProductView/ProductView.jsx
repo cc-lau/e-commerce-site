@@ -31,7 +31,9 @@ function ProductView() {
       ) : null}
       {!product.loading && product.products ? (
         <div className="view-card">
-          <img className="view-img" src={product.products.image}></img>
+          <div className="v-img-container">
+            <img className="view-img" src={product.products.image}></img>
+          </div>
           <div className="product-info">
             <p className="view-title"> {product.products.title}</p>
             <p className="view-price"> {"$" + product.products.price}</p>

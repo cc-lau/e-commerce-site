@@ -1,10 +1,9 @@
-$textColor: #161a1d;
+$textColor: #161a1ddc;
 
 @mixin headerText {
-  color: #161a1dde;
+  color: #161a1ddc;
   font-size: 2em;
-  font-weight: bold;
-  text-shadow: 0px 0px 2px rgba(50, 48, 48, 0.202);
+  font-weight: 700;
   padding-top: 15px;
 }
 

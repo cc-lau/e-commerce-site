@@ -7,29 +7,20 @@ const initialState = {
   error: "",
 };
 
-/* export const fetchProducts = createAsyncThunk(
+export const fetchAllProducts = createAsyncThunk(
   "product/fetchProducts",
-  (productType) => {
+  () => {
     return axios
-      .get("https://fakestoreapi.com/products/category/" + productType)
+      .get("https://fakestoreapi.com/products/")
       .then((response) => response.data);
   }
 );
-
-export const fetchSingleProduct = createAsyncThunk(
-  "product/fetchProducts",
-  (productId) => {
-    return axios
-      .get("https://fakestoreapi.com/products/" + productId)
-      .then((response) => response.data);
-  }
-); */
 
 export const fetchProducts = createAsyncThunk(
   "product/fetchProducts",
   (productType) => {
     return axios
-      .get("http://localhost:3000/products/" + productType)
+      .get("https://fakestoreapi.com/products/category/" + productType)
       .then((response) => response.data);
   }
 );

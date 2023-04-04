@@ -11,10 +11,6 @@ function Cart() {
   const cart = useSelector((state) => state.cart);
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    console.log(cart);
-  }, []);
-
   return (
     <div>
       <h2 className="page-header">Cart</h2>

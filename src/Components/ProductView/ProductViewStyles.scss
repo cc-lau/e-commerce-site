@@ -9,6 +9,8 @@ input::-webkit-inner-spin-button {
 .view-container {
   @include flexCenter;
   padding-top: 80px;
+  max-width: 78rem;
+  margin: auto;
 }
 
 @media (max-width: 900px) {
@@ -22,26 +24,33 @@ input::-webkit-inner-spin-button {
 .view-card {
   display: flex;
   flex-direction: row;
+  align-items: start;
   column-gap: 30px;
+  width: 100%;
 }
 
 .product-info {
   display: grid;
-  grid-template-columns: minmax(300px, 500px);
+  width: 100%;
   grid-template-rows: max-content max-content max-content max-content max-content;
   column-gap: 25px;
   row-gap: 10px;
   align-items: center;
 }
 
+.v-img-container {
+  width: 100%;
+}
 .view-img {
-  height: auto;
-  width: 300px;
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 .view-title {
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   margin: 0px;
 }
 

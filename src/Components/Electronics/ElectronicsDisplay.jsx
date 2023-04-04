@@ -1,13 +1,13 @@
 import React from "react";
 import { ProductsDisplay } from "../ProductsDisplay/ProductsDisplay";
 
-function SynthesizersDisplay() {
+function ElectronicsDisplay() {
   return (
     <div>
-      <h2 className="page-header">Synthesizers</h2>
+      <h2 className="page-header">Electronics</h2>
       <ProductsDisplay productType="electronics" />
     </div>
   );
 }
 
-export default SynthesizersDisplay;
+export default ElectronicsDisplay;
