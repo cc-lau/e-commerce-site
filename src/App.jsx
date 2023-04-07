@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import "./App.scss";
 import Home from "./Components/Home/Home";
 import MensClothingDisplay from "./Components/MensClothing/MensClothingDisplay";
@@ -14,7 +14,7 @@ import Checkout from "./Components/Checkout/Checkout";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <NavBarView />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -26,7 +26,7 @@ function App() {
           <Route path="cart" element={<Cart />} />
           <Route path="checkout" element={<Checkout />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
