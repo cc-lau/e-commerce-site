@@ -1,7 +1,7 @@
 {
-  "homepage": "https://cc-lau.github.io",
+  "homepage": "https://cc-lau.github.io/e-commerce-site",
   "name": "e-commerce-site",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
