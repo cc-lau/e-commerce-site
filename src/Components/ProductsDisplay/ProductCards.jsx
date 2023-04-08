@@ -48,8 +48,8 @@ export const ProductCards = () => {
             ))}
           </div>
         ) : null}
-        <Footer />
       </div>
+
     </div>
   );
 };

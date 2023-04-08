@@ -153,19 +153,4 @@
   }
 }
 
-footer {
-  background-color: rgba(128, 128, 128, 0.041);
-  width: 100%;
-  ul {
-    color: $textColor;
-    padding-top: 50px;
-    padding-bottom: 25px;
-    @include flexCenter;
-    column-gap: 50px;
-  }
-  h2 {
-    color: $textColor;
-    font-weight: 400;
-    padding-bottom: 25px;
-  }
-}
+

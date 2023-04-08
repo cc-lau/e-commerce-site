@@ -5,7 +5,6 @@ import MensClothingDisplay from "./Components/MensClothing/MensClothingDisplay";
 import WomensClothingDisplay from "./Components/WomensClothing/WomensClothingDisplay";
 import JewelryDisplay from "./Components/Jewelry/JewelryDisplay";
 import ElectronicsDisplay from "./Components/Electronics/ElectronicsDisplay";
-
 import NavBarView from "./Components/NavBar/NavBarView";
 import ProductView from "./Components/ProductView/ProductView";
 import Cart from "./Components/Cart/Cart";
