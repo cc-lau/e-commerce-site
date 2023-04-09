@@ -2,6 +2,16 @@ import React from "react";
 import "./HomeStyles.scss";
 import { NavLink } from "react-router-dom";
 import Footer from "../Footer/Footer";
+import mpic1 from "../../images/Mens-pics/pic1.jpg";
+import mpic2 from "../../images/Mens-pics/pic2.jpg";
+import mpic3 from "../../images/Mens-pics/pic3.jpg";
+import mpic4 from "../../images/Mens-pics/pic4.jpg";
+import wpic1 from "../../images/womens-pics/w1.jpg";
+import wpic2 from "../../images/womens-pics/w2.jpg";
+import wpic3 from "../../images/womens-pics/w-3.jpg";
+import wpic4 from "../../images/womens-pics/w-4.jpg";
+import jpic from "../../images/jewelry-pics/j-1.jpg";
+
 function Home() {
   return (
     <div>
@@ -12,7 +22,7 @@ function Home() {
             <li>
               <NavLink to="/mens_clothing">
                 <div className="h-img-container">
-                  <img src="/images/Mens-pics/pic1.jpg"></img>
+                  <img src={mpic1}></img>
                 </div>
                 <div className="c-title">
                   <h4>MEN'S NEW ARRIVALS</h4>
@@ -23,7 +33,7 @@ function Home() {
             <li>
               <NavLink to="/mens_clothing">
                 <div className="h-img-container">
-                  <img src="/images/Mens-pics/pic2.jpg"></img>
+                  <img src={mpic2}></img>
                 </div>
                 <div className="c-title">
                   <h4>MEN'S PANTS</h4>
@@ -34,7 +44,7 @@ function Home() {
             <li>
               <NavLink to="/mens_clothing">
                 <div className="h-img-container">
-                  <img src="/images/Mens-pics/pic3.jpg"></img>
+                  <img src={mpic3}></img>
                 </div>
                 <div className="c-title">
                   <h4>MEN'S TEES</h4>
@@ -45,7 +55,7 @@ function Home() {
             <li>
               <NavLink to="/mens_clothing">
                 <div className="h-img-container">
-                  <img src="/images/Mens-pics/pic4.jpg"></img>
+                  <img src={mpic4}></img>
                 </div>
                 <div className="c-title">
                   <h4>MEN'S SPORT</h4>
@@ -69,7 +79,7 @@ function Home() {
             <li>
               <NavLink to="/womens_clothing">
                 <div className="h-img-container">
-                  <img src="/images/womens-pics/w1.jpg"></img>
+                  <img src={wpic1}></img>
                 </div>
                 <div className="c-title">
                   <h4>WOMEN'S NEW ARRIVALS</h4>
@@ -80,7 +90,7 @@ function Home() {
             <li>
               <NavLink to="/womens_clothing">
                 <div className="h-img-container">
-                  <img src="/images/womens-pics/w2.jpg"></img>
+                  <img src={wpic2}></img>
                 </div>
                 <div className="c-title">
                   <h4>WOMEN'S PANTS</h4>
@@ -91,7 +101,7 @@ function Home() {
             <li>
               <NavLink to="/womens_clothing">
                 <div className="h-img-container">
-                  <img src="/images/womens-pics/w-3.jpg"></img>
+                  <img src={wpic3}></img>
                 </div>
                 <div className="c-title">
                   <h4>WOMEN'S TEES</h4>
@@ -102,7 +112,7 @@ function Home() {
             <li>
               <NavLink to="/womens_clothing">
                 <div className="h-img-container">
-                  <img src="/images/womens-pics/w-4.jpg"></img>
+                  <img src={wpic4}></img>
                 </div>
                 <div className="c-title">
                   <h4>WOMEN'S SPORT</h4>
@@ -114,7 +124,7 @@ function Home() {
         </div>
         <div className="jewelry-ad">
           <div className="j-img-container">
-            <img className="j-img" src="/images/jewelry-pics/j-1.jpg"></img>
+            <img className="j-img" src={jpic}></img>
           </div>
           <div className="j-text">
             <h2>THUG ROSE X DEFER COLLECTION</h2>

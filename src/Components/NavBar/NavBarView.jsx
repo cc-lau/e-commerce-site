@@ -3,13 +3,14 @@ import "./NavBarStyles.scss";
 import Icon from "@mdi/react";
 import { mdiCart } from "@mdi/js";
 import { NavLink } from "react-router-dom";
+import logo from "../../images/ad-pics/cstorelogopng.png";
 
 function NavBarView() {
   return (
     <div className="container">
       <div className="nav-bar">
         <NavLink className="music-store" to="/">
-          <img className="store-logo" src="/images/cstorelogopng.png"></img>
+          <img className="store-logo" src={logo}></img>
         </NavLink>
         <ul className="product-options">
           <li>

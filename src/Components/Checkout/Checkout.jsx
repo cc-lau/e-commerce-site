@@ -10,11 +10,16 @@ function Checkout() {
     <div className="checkout">
       <h2 className="page-header">Checkout: </h2>
       <div className="form-container">
-        <form action="" method="get" class="form-checkout">
+        <form action="" method="get" className="form-checkout">
           <h2 className="form-header">Shipping Address</h2>
-          <div class="country-region">
-            <label for="country-region">Country/Region</label>
-            <select name="countryCode" id="countryCode" required="" class="">
+          <div className="country-region">
+            <label htmlFor="country-region">Country/Region</label>
+            <select
+              name="countryCode"
+              id="countryCode"
+              required=""
+              className=""
+            >
               <option value="US">United States</option>
               <option value="CA">Canada</option>
               <option value="GB">United Kingdom</option>
@@ -270,8 +275,8 @@ function Checkout() {
             </select>
           </div>
           <div className="names">
-            <div class="first-name">
-              <label for="first-name"></label>
+            <div className="first-name">
+              <label htmlFor="first-name"></label>
               <input
                 type="text"
                 name="first-name"
@@ -280,8 +285,8 @@ function Checkout() {
                 required
               ></input>
             </div>
-            <div class="last-name">
-              <label for="last-name"></label>
+            <div className="last-name">
+              <label htmlFor="last-name"></label>
               <input
                 type="text"
                 name="last-name"
@@ -291,8 +296,8 @@ function Checkout() {
               ></input>
             </div>
           </div>
-          <div class="company">
-            <label for="company"></label>
+          <div className="company">
+            <label htmlFor="company"></label>
             <input
               type="text"
               name="company"
@@ -300,8 +305,8 @@ function Checkout() {
               id="company"
             ></input>
           </div>
-          <div class="address">
-            <label for="address"></label>
+          <div className="address">
+            <label htmlFor="address"></label>
             <input
               type="text"
               name="address"
@@ -309,8 +314,8 @@ function Checkout() {
               id="address"
             ></input>
           </div>
-          <div class="apartment">
-            <label for="apartment"></label>
+          <div className="apartment">
+            <label htmlFor="apartment"></label>
             <input
               type="text"
               name="apartment"
@@ -319,8 +324,8 @@ function Checkout() {
             ></input>
           </div>
           <div className="city-state-zip">
-            <div class="city">
-              <label for="city"></label>
+            <div className="city">
+              <label htmlFor="city"></label>
               <input
                 type="text"
                 name="city"
@@ -328,14 +333,14 @@ function Checkout() {
                 id="city"
               ></input>
             </div>
-            <div class="state">
-              <label for="state"></label>
+            <div className="state">
+              <label htmlFor="state"></label>
               <select
                 name="zone"
                 id="Select7"
                 required=""
-                class="_b6uH RR8sg vYo81 RGaKd"
-                autocomplete="shipping address-level1"
+                className="_b6uH RR8sg vYo81 RGaKd"
+                autoComplete="shipping address-level1"
               >
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
@@ -401,8 +406,8 @@ function Checkout() {
                 <option value="AP">Armed Forces Pacific</option>
               </select>
             </div>
-            <div class="zip-code">
-              <label for="zip-code"></label>
+            <div className="zip-code">
+              <label htmlFor="zip-code"></label>
               <input
                 type="text"
                 name="zip-code"
@@ -411,8 +416,8 @@ function Checkout() {
               ></input>
             </div>
           </div>
-          <div class="phone">
-            <label for="phone"></label>
+          <div className="phone">
+            <label htmlFor="phone"></label>
             <input
               type="text"
               name="phone"

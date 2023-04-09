@@ -13,19 +13,17 @@ import Checkout from "./Components/Checkout/Checkout";
 function App() {
   return (
     <div className="App">
-      <HashRouter>
-        <NavBarView />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="mens_clothing" element={<MensClothingDisplay />} />
-          <Route path="womens_clothing" element={<WomensClothingDisplay />} />
-          <Route path="jewelry" element={<JewelryDisplay />} />
-          <Route path="electronics" element={<ElectronicsDisplay />} />
-          <Route path="/product/:productId" element={<ProductView />} />
-          <Route path="cart" element={<Cart />} />
-          <Route path="checkout" element={<Checkout />} />
-        </Routes>
-      </HashRouter>
+      <NavBarView />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="mens_clothing" element={<MensClothingDisplay />} />
+        <Route path="womens_clothing" element={<WomensClothingDisplay />} />
+        <Route path="jewelry" element={<JewelryDisplay />} />
+        <Route path="electronics" element={<ElectronicsDisplay />} />
+        <Route path="/product/:productId" element={<ProductView />} />
+        <Route path="cart" element={<Cart />} />
+        <Route path="checkout" element={<Checkout />} />
+      </Routes>
     </div>
   );
 }
