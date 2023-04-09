@@ -12,7 +12,7 @@ function Home() {
             <li>
               <NavLink to="/mens_clothing">
                 <div className="h-img-container">
-                  <img src="/public/images/Mens-pics/pic1.jpg"></img>
+                  <img src="/images/Mens-pics/pic1.jpg"></img>
                 </div>
                 <div className="c-title">
                   <h4>MEN'S NEW ARRIVALS</h4>
@@ -23,7 +23,7 @@ function Home() {
             <li>
               <NavLink to="/mens_clothing">
                 <div className="h-img-container">
-                  <img src="/public/images/Mens-pics/pic2.jpg"></img>
+                  <img src="/images/Mens-pics/pic2.jpg"></img>
                 </div>
                 <div className="c-title">
                   <h4>MEN'S PANTS</h4>
@@ -34,7 +34,7 @@ function Home() {
             <li>
               <NavLink to="/mens_clothing">
                 <div className="h-img-container">
-                  <img src="/public/images/Mens-pics/pic3.jpg"></img>
+                  <img src="/images/Mens-pics/pic3.jpg"></img>
                 </div>
                 <div className="c-title">
                   <h4>MEN'S TEES</h4>
@@ -45,7 +45,7 @@ function Home() {
             <li>
               <NavLink to="/mens_clothing">
                 <div className="h-img-container">
-                  <img src="/public/images/Mens-pics/pic4.jpg"></img>
+                  <img src="/images/Mens-pics/pic4.jpg"></img>
                 </div>
                 <div className="c-title">
                   <h4>MEN'S SPORT</h4>
@@ -69,7 +69,7 @@ function Home() {
             <li>
               <NavLink to="/womens_clothing">
                 <div className="h-img-container">
-                  <img src="/public/images/womens-pics/w1.jpg"></img>
+                  <img src="/images/womens-pics/w1.jpg"></img>
                 </div>
                 <div className="c-title">
                   <h4>WOMEN'S NEW ARRIVALS</h4>
@@ -80,7 +80,7 @@ function Home() {
             <li>
               <NavLink to="/womens_clothing">
                 <div className="h-img-container">
-                  <img src="/public/images/womens-pics/w2.jpg"></img>
+                  <img src="/images/womens-pics/w2.jpg"></img>
                 </div>
                 <div className="c-title">
                   <h4>WOMEN'S PANTS</h4>
@@ -91,7 +91,7 @@ function Home() {
             <li>
               <NavLink to="/womens_clothing">
                 <div className="h-img-container">
-                  <img src="/public/images/womens-pics/w-3.jpg"></img>
+                  <img src="/images/womens-pics/w-3.jpg"></img>
                 </div>
                 <div className="c-title">
                   <h4>WOMEN'S TEES</h4>
@@ -102,7 +102,7 @@ function Home() {
             <li>
               <NavLink to="/womens_clothing">
                 <div className="h-img-container">
-                  <img src="/public/images/womens-pics/w-4.jpg"></img>
+                  <img src="/images/womens-pics/w-4.jpg"></img>
                 </div>
                 <div className="c-title">
                   <h4>WOMEN'S SPORT</h4>
@@ -114,10 +114,7 @@ function Home() {
         </div>
         <div className="jewelry-ad">
           <div className="j-img-container">
-            <img
-              className="j-img"
-              src="/public/images/jewelry-pics/j-1.jpg"
-            ></img>
+            <img className="j-img" src="/images/jewelry-pics/j-1.jpg"></img>
           </div>
           <div className="j-text">
             <h2>THUG ROSE X DEFER COLLECTION</h2>

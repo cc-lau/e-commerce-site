@@ -9,10 +9,7 @@ function NavBarView() {
     <div className="container">
       <div className="nav-bar">
         <NavLink className="music-store" to="/">
-          <img
-            className="store-logo"
-            src="/public/images/cstorelogopng.png"
-          ></img>
+          <img className="store-logo" src="/images/cstorelogopng.png"></img>
         </NavLink>
         <ul className="product-options">
           <li>
