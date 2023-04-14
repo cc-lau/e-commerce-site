@@ -4,7 +4,7 @@
 
   <p>A <b>ecommerce</b> website aims to provide a platform for users to browse and purchase products from various categories.</p>
 
-👉 Live Demo: <a href="https://cc-lau.github.io/e-commerce-site/">Live Demo</a>
+👉 Live Demo: <a href="https://e-commerce-site-six.vercel.app/">Live Demo</a>
 
 <h3>Built with:</h3>
 
